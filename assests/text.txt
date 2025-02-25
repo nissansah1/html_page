@@ -107,3 +107,19 @@ Flow: Stay in line with text.
 Width: Just as wide as the content. 
 No Break: No new line between elements. 
 Limited Styling: Can't <>easily. 
+
+
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nissansah1/html_page.git
+git push -u origin main
+
+
+git add .
+git commit -m "Initial commit"
+git push origin main
+
