@@ -1,0 +1,109 @@
+view page source - right click - give the page code [replica code for that page]
+
+inspect - right click - give you selective cody - that you can copy 
+
+mobile dimensional set through -inspect
+
+div give you horizontal line access - so you can do anything in horizontial line -must use div time to time 
+
+uanign validator.w3.org -  help yto make code more professional level and ranking best in google ,optimized,standarf,better SEO resdult
+
+vs-timeline is used to check the previous as same as code in your editor without - touching/effecting the present code one 
+
+semantic tags -know reight place to use tag like of section tag eg div,footer,header,nav,article
+,good for google search engline for ranking and popalurity one ,  [mostly use this one ]
+
+non-semantic tags :- use for general purpose eg :- b , i , u , p , big , small etc
+
+header - used for intoductary part or nav bar,always make unique per page , add meaning , when text spoen by aloud then alc to that it speak  
+
+section - insteaD OF USIng div , sue most of the time section for for divide part inn main tag 
+
+
+#Root Directory: Main folder containing all website files. 
+2. HTML Files: Store main.html files at the root level for easy access. 
+3. CSS Folder: Create a css/ folder for all Cascading Style Sheets. 
+4. JS Folder: Use a scripts/ folder for JavaScript files. 
+5. İmages Folder: Store images in an images/ or images/folder. 
+6. Assets: Other assets like fonts can go in an assets/folder. 
+7. Sub-directories: For multi-page websites, use to folder categorize content. 
+
+
+Block-level elements:       
+<address>
+<article>
+<aside>
+<blockquote>
+<canvas
+<dd>[1][2]
+<div>
+<dl>
+<dt>
+<fieldset>
+<figcaption>
+<figure>
+<footer>
+<form>
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+<header>
+<hr>
+<li>
+<main>
+<nav>
+<noscript>
+<ol>
+<p>
+<pre>
+<section>
+<table>
+<tfoot>
+<ul>
+<video>
+
+Inline elements:
+<a>
+<abbr>
+<acronym> (Not supported in HTML5)
+<b>
+<bdo>
+<big> (Not supported in HTML5)
+<br>
+<button>
+<cite>
+<code>
+<dfn>
+<em>
+<i>
+<img>
+<input>
+<kbd>
+<label>
+<map>
+<object>
+<output>
+<q>
+<samp>
+<script>
+<select>
+<small>
+<span>
+<strong>
+<sub>
+<sup>
+<textarea>
+<time>
+<tt> (Not supported in HTML5)
+<var>
+Search Sources
+
+Block Elements 
+New Line: Start on a new line. 
+Full Width: Take up all horizontal space. 
+Styling: Can have margins and padding. 
+Size: Width and height can be set. 
+ 
+inline elements 
+Flow: Stay in line with text. 
+Width: Just as wide as the content. 
+No Break: No new line between elements. 
+Limited Styling: Can't <>easily. 

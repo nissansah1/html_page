@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <Form action="/submit.php" method="post">
+        <label for="Username">Username</label>
+        <!-- inlabel, for act like to lik=nk with indupt id -->
+        <!-- label tag is used for betermine input boc=x name -->
+        <input type="text" id="Username" placeholder="enter username" name="username" value="">
+        <!-- also you can unofficially, after input without tag "text" display in horizontal -->
+        <!-- name is unique key value & value is actual coming input value - alos " " these are actual example -->
+        <!-- here, id is mostly used for connect with label with same name as it in lable  -->
+
+        <br>
+
+        <p>password</p>
+        <!-- password type used for hide data -->
+        <input type="password" id="password" placeholder="enter password" required="True" password="password" value="">
+        <!-- after input with tag like <p> "text" display in verticle -->
+
+        <input type="submit">
+        <!-- submit is used for submit data as a button -->
+        <br><br>
+
+        date: <input type="date">
+        <br><br>
+        file: <input type="file">
+        <br><br>
+        color: <input type="color">
+        <br><br>
+        Range: <input type="range">
+        <br><br>
+        button: <input type="button" value="reset">
+        <!-- value is used to display text inside button  -->
+        <br><br>
+        submit: <input type="submit">
+        <!-- it is a specia; type of buttom uesd for only submission  -->
+        <br><br>
+
+        radio_button:
+        <br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <br>
+
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <br>
+
+        <label for="other">other</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <!-- name is unique key value and here name act as same class name- means you can >>select only one<< & value is actual coming input value - alos " " these are actual example -->
+        <!-- here is perfect example that for and id connected - when you click on other text it tick on connected radio button  -->
+        <!-- radio is used for only one click  -->
+
+        <br><br>
+        check_Box:
+        <br>
+        <label for="apple">apple</label>
+        <input type="checkbox" id="apple" name="fruit" value="apple">
+        <br>
+
+        <label for="mango">mango</label>
+        <input type="checkbox" id="mango" name="fruit" value="mango">
+        <br>
+
+        <label for="pinepple">pinepple</label>
+        <input type="checkbox" id="pinepple" name="fruit" value="pinepple">
+
+        <!-- checkbox used for multiple click  -->
+        <br><br>
+        <label for="Country">Country</label>
+        <select name="Country" id="Country">
+            <option value="Nepal">Nepal</option>
+            <option value="India">India</option>
+            <option value="Uk">Uk</option>
+            <option value="other">other</option>
+        </select>
+        <!-- replace rabiobutton with select tag (nested option tag) if option is more and select is only one  -->
+
+        <br><br>
+
+        <label for="feedback">feedback</label>
+        <textarea name="feedback" id="feedback" row="4" cols="40" placeholder="please provide your feedback"></textarea>
+        <!-- textarea mostly use for porvide more detail as a input from user in form of feedback, regarding others info -->
+        <!-- row and cols define height and width of box -->
+
+        <br><br>
+        <iframe height="100px" weight="100px" src="https://youtu.be/-L-LHlGL8Y8?si=Af8KOwysrTDrlOKK"></iframe>
+
+        <br><br><br>
+        <iframe width="360" height="115" src="https://www.youtube.com/embed/XIGcVXNMicA?si=ixnyLgwjowxout3G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!-- iframe tage is used for keep another site on your page - same to same as it is with costimize hieght and weight  -->
+         <!-- some sites lock their iframe , so no one can use their site buc that page popular , not that actual sites -->
+
+
+    </Form>
+
+    <p> form tag used to collect user data</p>
+    <p>input give you box where user can input data</p>
+    <p>placeholder is used to transparent info inside input box</p>
+    <p>type attribute used for which way to get input data</p>
+    <p>requiredis used to " compulsary data must be file type "</p>
+    <p>action attribut is used to perform action through backend page link, after input is completed ,<br> it send input
+        data to backend link and also it used typles of middleware method</p>
+    <p>method is used to middleware to server from client and vice versa</p>
+
+    <pre>
+                name Property: 
+        * ID for Data: Identifies form elements when submitting. 
+        Unique: Should be unique to each element for clarity. 
+
+                value Property: 
+        * Default Data: Sets initial value for input elements. 
+        Sent to Server: This is the data sent when form is submitted. 
+    </pre>
+</body>
+
+</html>
+
+
